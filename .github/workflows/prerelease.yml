@@ -61,4 +61,4 @@ jobs:
             - name: Versioning main for Pre release
               run: |
                   git status
-                  npx standard-version --prerelease alpha
+                  pnpm run prerelease
