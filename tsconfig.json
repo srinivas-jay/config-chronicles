@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "dist",
+        "declarationDir": "dist/types",
+        "baseUrl": ".",
+        "rootDir": ".",
+        "sourceMap": true,
+        "declarationMap": true,
+        "strict": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Node",
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true,
+        "target": "ESNext"
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}
