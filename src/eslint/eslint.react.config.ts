@@ -4,8 +4,8 @@ const reactEslintConfig = {
 	...baseConfig,
 	extends: [
 		...baseConfig.extends,
-		'plugin:react/recommended',
-		'plugin:@typescript-eslint/recommended'
+		'plugin:@typescript-eslint/recommended',
+		'plugin:react-hooks/recommended'
 	],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
@@ -19,7 +19,8 @@ const reactEslintConfig = {
 		...baseConfig.plugins,
 		'react',
 		'react-hooks',
-		'@typescript-eslint'
+		'@typescript-eslint',
+		'react-refresh'
 	],
 	env: {
 		browser: true,
