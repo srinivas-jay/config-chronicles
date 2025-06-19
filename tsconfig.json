@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "CommonJS",
+        "module": "NodeNext",
         "outDir": "dist",
         "declarationDir": "dist/types",
         "baseUrl": ".",
@@ -13,7 +13,7 @@
         "esModuleInterop": true,
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "moduleResolution": "Node",
+        "moduleResolution": "NodeNext",
         "skipLibCheck": true,
         "skipDefaultLibCheck": true,
         "experimentalDecorators": true,
